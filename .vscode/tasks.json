@@ -1,0 +1,18 @@
+// Sass configuration
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Sass Compile Main",
+        "type": "shell",
+        "command": "sass assets/sass/main.scss assets/css/main.css",
+        "group": "build"
+      },
+      {
+        "label": "Sass Compile Carrousel",
+        "type": "shell",
+        "command": "sass assets/sass/carrousel.scss assets/css/carrousel.css",
+        "group": "build"
+      }
+    ]
+  }
